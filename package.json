@@ -1,0 +1,33 @@
+{
+  "name": "rde-pack",
+  "publisher": "Ranch-Hand-Robotics",
+  "displayName": "Robot Developer Extensions",
+  "description": "Developer Extensions for building Robots  Using  Visual Studio Code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ranch-Hand-Robotics/rde-pack.git"
+  },
+  "keywords": [
+    "robot",
+    "robotics",
+    "ros2",
+    "urdf",
+    "vscode",
+    "extension pack"
+  ],
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "Ranch-Hand-Robotics.urdf-editor",
+    "Ranch-Hand-Robotics.rde-ros-2"
+  ],
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  }
+}
