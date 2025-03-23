@@ -3,6 +3,7 @@
   "publisher": "Ranch-Hand-Robotics",
   "displayName": "Robotics Developer Environment",
   "description": "Developer Extensions for building Robots Using Visual Studio Code",
+  "icon": "./icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Ranch-Hand-Robotics/rde-pack.git"
