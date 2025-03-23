@@ -34,9 +34,6 @@ jobs:
       - name: Install VSCE
         run: npm install @vscode/vsce -g
         
-      - name: Build Extension
-        run: npm run build
-      
       # Prerelease flow
       - name: Build Prerelease VSIX package
         if: ${{ github.event.inputs.prerelease == 'true' }}
