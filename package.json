@@ -16,7 +16,7 @@
     "vscode",
     "extension pack"
   ],
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.98.0"
   },
