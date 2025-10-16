@@ -16,7 +16,7 @@
     "vscode",
     "extension pack"
   ],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.98.0"
   },
@@ -25,7 +25,8 @@
   ],
   "extensionPack": [ 
     "Ranch-Hand-Robotics.urdf-editor",
-    "Ranch-Hand-Robotics.rde-ros-2"
+    "Ranch-Hand-Robotics.rde-ros-2",
+    "Ranch-Hand-Robotics.rde-creator",
   ],
   "scripts": {
     "package": "vsce package",
