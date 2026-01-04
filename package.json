@@ -26,7 +26,7 @@
   "extensionPack": [ 
     "Ranch-Hand-Robotics.urdf-editor",
     "Ranch-Hand-Robotics.rde-ros-2",
-    "Ranch-Hand-Robotics.rde-creator",
+    "Ranch-Hand-Robotics.rde-creator"
   ],
   "scripts": {
     "package": "vsce package",
